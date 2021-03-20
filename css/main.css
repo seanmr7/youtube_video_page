@@ -17,14 +17,28 @@ body {
   margin: 0 15em;
 }
 
+aside {
+  float: right;
+  width: 35%;
+}
+
 .video-content {
   float: left;
   width: 62%;
 }
 
-aside {
-  float: right;
-  width: 35%;
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
 }
 
 .video-title-wrapper {
